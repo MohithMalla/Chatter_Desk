@@ -10,7 +10,7 @@ const Message = require('./model/Message');
 // Routes
 const authRoutes = require('./routes/auth');
 const workspaceRoutes = require('./routes/workspaces');
-const channelRoutes = require('./routes/Channel');
+const channelRoutes = require('./routes/channel');
 const messageRoutes = require('./routes/messages');
 
 const app = express();
